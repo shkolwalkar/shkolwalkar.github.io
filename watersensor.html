@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shreyas Kolwalkar's Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="title"><a href="index.html">Shreyas Kolwalkar</a></header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="contact.html" class="nav">Contact</a></li>
+            <li><a href="projects.html" class="nav">Projects</a></li>
+            <li><a href="resume.html" class="nav">Resume</a></li>
+            <li><a href="index.html" class="nav">Home</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div style="height: 40px;"></div>
+        <h1>Water Sensor</h1>
+        <h2>Project Purpose</h2>
+        <p>Indian houses are built with water tanks to ensure consistent water supply despite municipal inconsistencies or droughts. However, the water tank at my aunt's house is built outside of the house, meaning that it’s inconvenient for my aunt to manually check the water level (and inaccessible, because the tank lid is REALLY heavy). I seek to build a remote water sensor that can detect and transmit the water level conveniently without manual intervention.</p>
+        <h2>Project Architecture</h2>
+        <p>Used two ESP-32 microcontrollers, a "sender" and a "receiver". The sender reads distance values from an HC-SR04 ultrasonic sensor, and uses ESP-NOW protocol to transmit to receiver. Receiver interprets sender data - calculates height in a percent - and uploads it to a web server accessible by my aunt.</p>
+        <h2>Status</h2>
+        <p>Unfinished. Still debugging web server code.</p>
+        <h2>GitHub</h2>
+        <p>to be uploaded soon</p>
+
+    </main>
