@@ -1,11 +1,17 @@
-Hi guys! This is my personal website.
+# Personal Website
 
-The website has four main pages:
+My personal website: visit [here](shkolwalkar.github.io)
+
+## Status
+Public and working. Undergoing major revisions to design and site organization.
+
+## Features
+Four main pages:
 1. homepage (index.html)
 2. resume (resume.html)
-3. list of my projects (projects.html)
-4. contact form (contact.html)*
+3. list of projects (projects.html)
+4. contact form (contact.html)
 
-The list of my projects also includes sub-links to individual projects. (website.html, watersensor.html, etc.)
+## Built With
+HTML, CSS
 
-*Does not work right now. Will fix this soon!
